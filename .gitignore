@@ -1,0 +1,30 @@
+
+bin/
+obj/
+
+
+.vs/
+*.user
+*.suo
+*.bak
+*.cache
+*.sln.docstates
+
+
+appsettings.json
+appsettings.Development.json
+
+
+## .NET Core
+*.nuget.props
+*.nuget.targets
+
+
+.vscode/
+
+
+*.log
+
+# Otros archivos y carpetas generados
+[Tt]humbs.db
+*.DS_Store
