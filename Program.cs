@@ -7,6 +7,7 @@ b=a;
 Console.WriteLine("valor de a:"+a);
 Console.WriteLine("valor de b:"+b);*/
 //Ejercicio 1
+/*Console.WriteLine("Ingrese un numero para invertirlo");
 string ?stringNum = Console.ReadLine();
 int num = 0;
 bool ok = int.TryParse(stringNum, out num);
@@ -34,6 +35,24 @@ if(ok) {
 } else {
     Console.WriteLine("Hubo un problema en la conversion del numero: "+stringNum);
 }
+*/
 
+//Ejercicio 4
+Console.WriteLine("Ingrese una cadena");
+string ?cadena = Console.ReadLine();
 
+if(cadena != null) {
+    Console.WriteLine($"Longitud de texto: {cadena.Length}");
+} else {
+    Console.WriteLine($"Longitud de texto: 0");
+}
+
+Console.WriteLine("Ingrese un segunda cadena");
+string ?cadena2 = Console.ReadLine();
+Console.WriteLine($"Cadenas concatenadas: {cadena} {cadena2}");
+
+if(cadena2 != null) {//por ej ingresar: Programador Universitario
+    var subcadena = cadena2.Substring(12);
+    Console.WriteLine("Substring: "+subcadena);//Universitario
+}
 
